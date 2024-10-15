@@ -1,0 +1,19 @@
+server:
+  port: 8082
+  
+  
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017
+      database: ratingmicroservice
+      
+  application:
+    name: Rating-Microservice
+    
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8083/eureka
+    register-with-eureka: true
+    fetch-registry: true

@@ -1,0 +1,28 @@
+package com.hotel.entities;
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.OneToMany;
+import jakarta.persistence.Table;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+@Entity
+@Table(name = "HotelsData")
+public class Hotels {
+	@Id
+	@Column(name = "HotelId")
+	private String hotelId;
+	@Column(name = "Name")
+	private String name;
+	@OneToMany
+	private Staffs staffs;
+	
+}

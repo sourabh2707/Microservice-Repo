@@ -1,0 +1,50 @@
+package com.hotel.services;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.hotel.entities.Staffs;
+import com.hotel.exceptions.ResourceNotFoundException;
+import com.hotel.repositories.StaffRepository;
+
+public class StaffsServiceImpl implements StaffService {
+
+	@Autowired
+	private StaffRepository staffRepository;
+
+	@Override
+	public Staffs create(Staffs staffs) {
+
+		return staffRepository.save(staffs);
+	}
+
+	@Override
+	public Staffs update(Staffs staffs) {
+		Staffs staffs1 = staffRepository.findById(staffs.getStaffId()).orElseThrow(() -> new ResourceNotFoundException(
+				String.format("Resource with user id %s not found on server", staffs.getStaffId())));
+		staffs1.setName(staffs.getName());
+		staffs1.setHotels(staffs.getHotels());
+		
+		return staffRepository.save(staffs1);
+	}
+
+	@Override
+	public Staffs get(String hotelId) {
+		
+		return staffRepository.findByHotelId(hotelId);
+	}
+
+	@Override
+	public List<Staffs> getAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String delete() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="UserServiceTest" project="User-Microservice" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.user.userservice.UserServiceTest" time="1.32" displayname="UserServiceTest" uniqueid="[engine:junit-jupiter]/[class:com.user.userservice.UserServiceTest]">
+    <testcase name="createUserTest" classname="com.user.userservice.UserServiceTest" time="1.32" displayname="createUserTest()" uniqueid="[engine:junit-jupiter]/[class:com.user.userservice.UserServiceTest]/[method:createUserTest()]"/>
+  </testsuite>
+</testrun>

@@ -1,0 +1,10 @@
+server:
+  port: 8083
+  
+eureka:
+  instance:
+    hostname: Microservices Host
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+   

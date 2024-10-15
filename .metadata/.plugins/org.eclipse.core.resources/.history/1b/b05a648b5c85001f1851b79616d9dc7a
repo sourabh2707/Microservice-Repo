@@ -1,0 +1,5 @@
+package com.rating.exceptions;
+
+public class ResourceNotFoundException {
+
+}

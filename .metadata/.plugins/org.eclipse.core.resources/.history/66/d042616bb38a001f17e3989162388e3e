@@ -1,0 +1,32 @@
+package com.user.userservice;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.mockito.Mockito.when;
+
+import org.junit.jupiter.api.Test;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+
+import com.user.entities.Users;
+import com.user.repositories.UserRepository;
+import com.user.services.UserServiceImpl;
+
+public class UserServiceTest {
+
+	@InjectMocks
+	private UserServiceImpl userServiceImpl;
+
+	@Mock
+	private UserRepository userRepository;
+
+	@Test
+	public void createUserTest() {
+		Users users = new Users();
+		users.setUserId("njnkd25315dsas");
+		users.setName("Test");
+		users.setEmail("test@gmail.com");
+		
+		when(userRepository.save(users)).thenReturn(users);
+		assertEquals(users, userRepository.save(users));
+	}
+}

@@ -1,0 +1,23 @@
+package com.rating.service;
+
+import java.util.List;
+
+import org.springframework.http.ResponseEntity;
+
+import com.rating.entities.Ratings;
+
+public interface RatingService {
+
+	// Save rating
+	ResponseEntity<Ratings> createRating(Ratings rating);
+
+	// Get all ratings
+	ResponseEntity<List<Ratings>> getAll();
+
+	// Get all ratings by user id
+	ResponseEntity<List<Ratings>> getByUserId(String userId);
+
+	// Get all ratings by hotel id
+	ResponseEntity<List<Ratings>> getByHotelId(String hotelId);
+
+}

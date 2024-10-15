@@ -1,0 +1,23 @@
+server:
+  port: 8084
+
+spring:
+  application:
+    name: Gateway-Service		
+  cloud:
+    gateway:
+      mvc:
+        routes:
+        - id: USER-MICROSERVICE
+          uri: lb://USER-MICROSERVICE
+          predicates:
+          - paths=/user/**
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8083/eureka
+  instance:
+    prefer-ip-address: true

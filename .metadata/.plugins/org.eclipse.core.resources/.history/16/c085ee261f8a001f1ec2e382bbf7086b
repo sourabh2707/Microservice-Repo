@@ -1,0 +1,101 @@
+2024-10-14[DiscoveryClient-CacheRefreshExecutor-%d]DEBUGo.s.web.client.RestTemplate-HTTP GET http://localhost:8083/eureka/apps/delta
+2024-10-14[DiscoveryClient-HeartbeatExecutor-%d]DEBUGo.s.web.client.RestTemplate-HTTP PUT http://localhost:8083/eureka/apps/HOTEL-MICROSERVICE/LAPTOP-J428Q5PF:Hotel-Microservice:8081?status=UP&lastDirtyTimestamp=1728904788283
+2024-10-14[DiscoveryClient-HeartbeatExecutor-%d]DEBUGo.s.web.client.RestTemplate-Accept=[application/json, application/*+json]
+2024-10-14[DiscoveryClient-CacheRefreshExecutor-%d]DEBUGo.s.web.client.RestTemplate-Accept=[application/json, application/*+json]
+2024-10-14[DiscoveryClient-CacheRefreshExecutor-%d]DEBUGo.s.web.client.RestTemplate-Response 200 OK
+2024-10-14[DiscoveryClient-HeartbeatExecutor-%d]DEBUGo.s.web.client.RestTemplate-Response 200 OK
+2024-10-14[DiscoveryClient-CacheRefreshExecutor-%d]DEBUGo.s.web.client.RestTemplate-Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-10-14[DiscoveryClient-HeartbeatExecutor-%d]DEBUGo.s.web.client.RestTemplate-HTTP PUT http://localhost:8083/eureka/apps/HOTEL-MICROSERVICE/LAPTOP-J428Q5PF:Hotel-Microservice:8081?status=UP&lastDirtyTimestamp=1728904788283
+2024-10-14[DiscoveryClient-CacheRefreshExecutor-%d]DEBUGo.s.web.client.RestTemplate-HTTP GET http://localhost:8083/eureka/apps/delta
+2024-10-14[DiscoveryClient-HeartbeatExecutor-%d]DEBUGo.s.web.client.RestTemplate-Accept=[application/json, application/*+json]
+2024-10-14[DiscoveryClient-CacheRefreshExecutor-%d]DEBUGo.s.web.client.RestTemplate-Accept=[application/json, application/*+json]
+2024-10-14[DiscoveryClient-HeartbeatExecutor-%d]DEBUGo.s.web.client.RestTemplate-Response 200 OK
+2024-10-14[DiscoveryClient-CacheRefreshExecutor-%d]DEBUGo.s.web.client.RestTemplate-Response 200 OK
+2024-10-14[DiscoveryClient-CacheRefreshExecutor-%d]DEBUGo.s.web.client.RestTemplate-Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-10-14[DiscoveryClient-HeartbeatExecutor-%d]DEBUGo.s.web.client.RestTemplate-HTTP PUT http://localhost:8083/eureka/apps/HOTEL-MICROSERVICE/LAPTOP-J428Q5PF:Hotel-Microservice:8081?status=UP&lastDirtyTimestamp=1728904788283
+2024-10-14[DiscoveryClient-CacheRefreshExecutor-%d]DEBUGo.s.web.client.RestTemplate-HTTP GET http://localhost:8083/eureka/apps/delta
+2024-10-14[DiscoveryClient-CacheRefreshExecutor-%d]DEBUGo.s.web.client.RestTemplate-Accept=[application/json, application/*+json]
+2024-10-14[DiscoveryClient-HeartbeatExecutor-%d]DEBUGo.s.web.client.RestTemplate-Accept=[application/json, application/*+json]
+2024-10-14[DiscoveryClient-CacheRefreshExecutor-%d]DEBUGo.s.web.client.RestTemplate-Response 200 OK
+2024-10-14[DiscoveryClient-HeartbeatExecutor-%d]DEBUGo.s.web.client.RestTemplate-Response 200 OK
+2024-10-14[DiscoveryClient-CacheRefreshExecutor-%d]DEBUGo.s.web.client.RestTemplate-Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-10-14[DiscoveryClient-CacheRefreshExecutor-%d]DEBUGo.s.web.client.RestTemplate-HTTP GET http://localhost:8083/eureka/apps/delta
+2024-10-14[DiscoveryClient-HeartbeatExecutor-%d]DEBUGo.s.web.client.RestTemplate-HTTP PUT http://localhost:8083/eureka/apps/HOTEL-MICROSERVICE/LAPTOP-J428Q5PF:Hotel-Microservice:8081?status=UP&lastDirtyTimestamp=1728904788283
+2024-10-14[DiscoveryClient-HeartbeatExecutor-%d]DEBUGo.s.web.client.RestTemplate-Accept=[application/json, application/*+json]
+2024-10-14[DiscoveryClient-CacheRefreshExecutor-%d]DEBUGo.s.web.client.RestTemplate-Accept=[application/json, application/*+json]
+2024-10-14[DiscoveryClient-CacheRefreshExecutor-%d]DEBUGo.s.web.client.RestTemplate-Response 200 OK
+2024-10-14[DiscoveryClient-HeartbeatExecutor-%d]DEBUGo.s.web.client.RestTemplate-Response 200 OK
+2024-10-14[DiscoveryClient-CacheRefreshExecutor-%d]DEBUGo.s.web.client.RestTemplate-Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-10-14[DiscoveryClient-HeartbeatExecutor-%d]DEBUGo.s.web.client.RestTemplate-HTTP PUT http://localhost:8083/eureka/apps/HOTEL-MICROSERVICE/LAPTOP-J428Q5PF:Hotel-Microservice:8081?status=UP&lastDirtyTimestamp=1728904788283
+2024-10-14[DiscoveryClient-CacheRefreshExecutor-%d]DEBUGo.s.web.client.RestTemplate-HTTP GET http://localhost:8083/eureka/apps/delta
+2024-10-14[DiscoveryClient-CacheRefreshExecutor-%d]DEBUGo.s.web.client.RestTemplate-Accept=[application/json, application/*+json]
+2024-10-14[DiscoveryClient-HeartbeatExecutor-%d]DEBUGo.s.web.client.RestTemplate-Accept=[application/json, application/*+json]
+2024-10-14[DiscoveryClient-HeartbeatExecutor-%d]DEBUGo.s.web.client.RestTemplate-Response 200 OK
+2024-10-14[DiscoveryClient-CacheRefreshExecutor-%d]DEBUGo.s.web.client.RestTemplate-Response 200 OK
+2024-10-14[DiscoveryClient-CacheRefreshExecutor-%d]DEBUGo.s.web.client.RestTemplate-Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-10-14[DiscoveryClient-HeartbeatExecutor-%d]DEBUGo.s.web.client.RestTemplate-HTTP PUT http://localhost:8083/eureka/apps/HOTEL-MICROSERVICE/LAPTOP-J428Q5PF:Hotel-Microservice:8081?status=UP&lastDirtyTimestamp=1728904788283
+2024-10-14[DiscoveryClient-CacheRefreshExecutor-%d]DEBUGo.s.web.client.RestTemplate-HTTP GET http://localhost:8083/eureka/apps/delta
+2024-10-14[DiscoveryClient-CacheRefreshExecutor-%d]DEBUGo.s.web.client.RestTemplate-Accept=[application/json, application/*+json]
+2024-10-14[DiscoveryClient-HeartbeatExecutor-%d]DEBUGo.s.web.client.RestTemplate-Accept=[application/json, application/*+json]
+2024-10-14[DiscoveryClient-HeartbeatExecutor-%d]DEBUGo.s.web.client.RestTemplate-Response 200 OK
+2024-10-14[DiscoveryClient-CacheRefreshExecutor-%d]DEBUGo.s.web.client.RestTemplate-Response 200 OK
+2024-10-14[DiscoveryClient-CacheRefreshExecutor-%d]DEBUGo.s.web.client.RestTemplate-Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-10-14[DiscoveryClient-CacheRefreshExecutor-%d]DEBUGo.s.web.client.RestTemplate-HTTP GET http://localhost:8083/eureka/apps/delta
+2024-10-14[DiscoveryClient-HeartbeatExecutor-%d]DEBUGo.s.web.client.RestTemplate-HTTP PUT http://localhost:8083/eureka/apps/HOTEL-MICROSERVICE/LAPTOP-J428Q5PF:Hotel-Microservice:8081?status=UP&lastDirtyTimestamp=1728904788283
+2024-10-14[DiscoveryClient-CacheRefreshExecutor-%d]DEBUGo.s.web.client.RestTemplate-Accept=[application/json, application/*+json]
+2024-10-14[DiscoveryClient-HeartbeatExecutor-%d]DEBUGo.s.web.client.RestTemplate-Accept=[application/json, application/*+json]
+2024-10-14[DiscoveryClient-HeartbeatExecutor-%d]DEBUGo.s.web.client.RestTemplate-Response 200 OK
+2024-10-14[DiscoveryClient-CacheRefreshExecutor-%d]DEBUGo.s.web.client.RestTemplate-Response 200 OK
+2024-10-14[DiscoveryClient-CacheRefreshExecutor-%d]DEBUGo.s.web.client.RestTemplate-Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-10-14[DiscoveryClient-CacheRefreshExecutor-%d]DEBUGo.s.web.client.RestTemplate-HTTP GET http://localhost:8083/eureka/apps/delta
+2024-10-14[DiscoveryClient-HeartbeatExecutor-%d]DEBUGo.s.web.client.RestTemplate-HTTP PUT http://localhost:8083/eureka/apps/HOTEL-MICROSERVICE/LAPTOP-J428Q5PF:Hotel-Microservice:8081?status=UP&lastDirtyTimestamp=1728904788283
+2024-10-14[DiscoveryClient-CacheRefreshExecutor-%d]DEBUGo.s.web.client.RestTemplate-Accept=[application/json, application/*+json]
+2024-10-14[DiscoveryClient-HeartbeatExecutor-%d]DEBUGo.s.web.client.RestTemplate-Accept=[application/json, application/*+json]
+2024-10-14[DiscoveryClient-CacheRefreshExecutor-%d]DEBUGo.s.web.client.RestTemplate-Response 200 OK
+2024-10-14[DiscoveryClient-HeartbeatExecutor-%d]DEBUGo.s.web.client.RestTemplate-Response 200 OK
+2024-10-14[DiscoveryClient-CacheRefreshExecutor-%d]DEBUGo.s.web.client.RestTemplate-Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-10-14[DiscoveryClient-CacheRefreshExecutor-%d]DEBUGo.s.web.client.RestTemplate-HTTP GET http://localhost:8083/eureka/apps/delta
+2024-10-14[DiscoveryClient-CacheRefreshExecutor-%d]DEBUGo.s.web.client.RestTemplate-Accept=[application/json, application/*+json]
+2024-10-14[DiscoveryClient-HeartbeatExecutor-%d]DEBUGo.s.web.client.RestTemplate-HTTP PUT http://localhost:8083/eureka/apps/HOTEL-MICROSERVICE/LAPTOP-J428Q5PF:Hotel-Microservice:8081?status=UP&lastDirtyTimestamp=1728904788283
+2024-10-14[DiscoveryClient-HeartbeatExecutor-%d]DEBUGo.s.web.client.RestTemplate-Accept=[application/json, application/*+json]
+2024-10-14[DiscoveryClient-CacheRefreshExecutor-%d]DEBUGo.s.web.client.RestTemplate-Response 200 OK
+2024-10-14[DiscoveryClient-CacheRefreshExecutor-%d]DEBUGo.s.web.client.RestTemplate-Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-10-14[DiscoveryClient-HeartbeatExecutor-%d]DEBUGo.s.web.client.RestTemplate-Response 200 OK
+2024-10-14[DiscoveryClient-CacheRefreshExecutor-%d]DEBUGo.s.web.client.RestTemplate-HTTP GET http://localhost:8083/eureka/apps/delta
+2024-10-14[DiscoveryClient-HeartbeatExecutor-%d]DEBUGo.s.web.client.RestTemplate-HTTP PUT http://localhost:8083/eureka/apps/HOTEL-MICROSERVICE/LAPTOP-J428Q5PF:Hotel-Microservice:8081?status=UP&lastDirtyTimestamp=1728904788283
+2024-10-14[DiscoveryClient-CacheRefreshExecutor-%d]DEBUGo.s.web.client.RestTemplate-Accept=[application/json, application/*+json]
+2024-10-14[DiscoveryClient-HeartbeatExecutor-%d]DEBUGo.s.web.client.RestTemplate-Accept=[application/json, application/*+json]
+2024-10-14[DiscoveryClient-CacheRefreshExecutor-%d]DEBUGo.s.web.client.RestTemplate-Response 200 OK
+2024-10-14[DiscoveryClient-HeartbeatExecutor-%d]DEBUGo.s.web.client.RestTemplate-Response 200 OK
+2024-10-14[DiscoveryClient-CacheRefreshExecutor-%d]DEBUGo.s.web.client.RestTemplate-Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-10-14[DiscoveryClient-InstanceInfoReplicator-%d]DEBUGo.s.web.client.RestTemplate-HTTP POST http://localhost:8083/eureka/apps/HOTEL-MICROSERVICE
+2024-10-14[DiscoveryClient-InstanceInfoReplicator-%d]DEBUGo.s.web.client.RestTemplate-Accept=[application/json, application/*+json]
+2024-10-14[DiscoveryClient-InstanceInfoReplicator-%d]DEBUGo.s.web.client.RestTemplate-Writing [InstanceInfo [instanceId = LAPTOP-J428Q5PF:Hotel-Microservice:8081, appName = HOTEL-MICROSERVICE, hostName = 192.168.170.184, status = DOWN, ipAddr = 192.168.170.184, port = 8081, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@5297499f] as "application/json"
+2024-10-14[DiscoveryClient-InstanceInfoReplicator-%d]DEBUGo.s.web.client.RestTemplate-Response 204 NO_CONTENT
+2024-10-14[Thread-7]DEBUGo.s.web.client.RestTemplate-HTTP DELETE http://localhost:8083/eureka/apps/HOTEL-MICROSERVICE/LAPTOP-J428Q5PF:Hotel-Microservice:8081
+2024-10-14[Thread-7]DEBUGo.s.web.client.RestTemplate-Accept=[application/json, application/*+json]
+2024-10-14[Thread-7]DEBUGo.s.web.client.RestTemplate-Response 200 OK
+2024-10-14[restartedMain]WARN o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-10-14[restartedMain]WARN o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'deferringLoadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.DeferringLoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-10-14[restartedMain]WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-14[restartedMain]DEBUGo.s.w.s.m.m.a.RequestMappingHandlerMapping-10 mappings in 'requestMappingHandlerMapping'
+2024-10-14[restartedMain]DEBUGo.s.w.s.h.SimpleUrlHandlerMapping-Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-10-14[restartedMain]DEBUGo.s.w.s.m.m.a.RequestMappingHandlerAdapter-ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-10-14[restartedMain]DEBUGo.s.w.s.m.m.a.ExceptionHandlerExceptionResolver-ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-10-14[restartedMain]WARN o.s.b.d.a.OptionalLiveReloadServer-Unable to start LiveReload server
+2024-10-14[restartedMain]WARN o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger-Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-10-14[restartedMain]DEBUGo.s.web.client.RestTemplate-HTTP GET http://localhost:8083/eureka/apps/
+2024-10-14[restartedMain]DEBUGo.s.web.client.RestTemplate-Accept=[application/json, application/*+json]
+2024-10-14[restartedMain]DEBUGo.s.web.client.RestTemplate-Response 200 OK
+2024-10-14[restartedMain]DEBUGo.s.web.client.RestTemplate-Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2024-10-14[DiscoveryClient-InstanceInfoReplicator-%d]DEBUGo.s.web.client.RestTemplate-HTTP POST http://localhost:8083/eureka/apps/HOTEL-MICROSERVICE
+2024-10-14[DiscoveryClient-InstanceInfoReplicator-%d]DEBUGo.s.web.client.RestTemplate-Accept=[application/json, application/*+json]
+2024-10-14[DiscoveryClient-InstanceInfoReplicator-%d]DEBUGo.s.web.client.RestTemplate-Writing [InstanceInfo [instanceId = LAPTOP-J428Q5PF:Hotel-Microservice:8081, appName = HOTEL-MICROSERVICE, hostName = 192.168.170.184, status = UP, ipAddr = 192.168.170.184, port = 8081, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@6938d854] as "application/json"
+2024-10-14[DiscoveryClient-InstanceInfoReplicator-%d]DEBUGo.s.web.client.RestTemplate-Response 204 NO_CONTENT
+2024-10-14[DiscoveryClient-CacheRefreshExecutor-%d]DEBUGo.s.web.client.RestTemplate-HTTP GET http://localhost:8083/eureka/apps/delta
+2024-10-14[DiscoveryClient-HeartbeatExecutor-%d]DEBUGo.s.web.client.RestTemplate-HTTP PUT http://localhost:8083/eureka/apps/HOTEL-MICROSERVICE/LAPTOP-J428Q5PF:Hotel-Microservice:8081?status=UP&lastDirtyTimestamp=1728905154423
+2024-10-14[DiscoveryClient-CacheRefreshExecutor-%d]DEBUGo.s.web.client.RestTemplate-Accept=[application/json, application/*+json]
+2024-10-14[DiscoveryClient-HeartbeatExecutor-%d]DEBUGo.s.web.client.RestTemplate-Accept=[application/json, application/*+json]
+2024-10-14[DiscoveryClient-CacheRefreshExecutor-%d]DEBUGo.s.web.client.RestTemplate-Response 200 OK
+2024-10-14[DiscoveryClient-HeartbeatExecutor-%d]DEBUGo.s.web.client.RestTemplate-Response 200 OK
+2024-10-14[DiscoveryClient-CacheRefreshExecutor-%d]DEBUGo.s.web.client.RestTemplate-Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]

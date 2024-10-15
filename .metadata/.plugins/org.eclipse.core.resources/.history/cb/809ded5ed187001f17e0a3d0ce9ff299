@@ -1,0 +1,21 @@
+package com.hotel.repositories;
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+
+import com.hotel.entities.Staffs;
+
+public interface StaffRepository extends JpaRepository<Staffs, String> {
+
+	// Get by hotel id
+	public Staffs findByHotelId(String hotelId);
+	
+	/*
+	 * Can write native queries like this
+	 * @Query(value = "select * from Staffs",nativeQuery = true) public List<Staffs>
+	 * getThem();
+	 */
+	
+}

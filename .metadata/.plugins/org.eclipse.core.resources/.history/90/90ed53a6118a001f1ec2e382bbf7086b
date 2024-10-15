@@ -1,0 +1,9 @@
+package com.hotel.payloads;
+
+import java.util.List;
+
+public class HotelDTO {
+	private String hotelId;
+	private String name;
+	private List<StaffDTO> staffDTO;
+}

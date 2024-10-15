@@ -1,0 +1,59 @@
+package com.user.services;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.UUID;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestTemplate;
+
+import com.user.entities.Ratings;
+import com.user.entities.Users;
+import com.user.exceptions.ResourceNotFoundException;
+import com.user.repositories.UserRepository;
+
+@Service
+public class UserServiceImpl implements UserService {
+
+	@Autowired
+	private UserRepository userRepository;
+
+	@Autowired
+	private RestTemplate restTemplate;
+
+	private Logger logger = LoggerFactory.getLogger(UserServiceImpl.class);
+
+	@Override
+	public Users createUser(Users user) {
+		String randomUUID = UUID.randomUUID().toString();
+		user.setUserId(randomUUID);
+		Users user1 = userRepository.save(user);
+		return user1;
+	}
+
+	@Override
+	public List<Users> allUsers() {
+		List<Users> usersList = userRepository.findAll();
+		return usersList;
+	}
+
+	@Override
+	public Users getUser(String id) {
+		// Finding user by user id
+		Users user = userRepository.findById(id).orElseThrow(
+				() -> new ResourceNotFoundException("User with the given user id not found on server:" + id));
+
+		// With help of rest template calling ratings api which gets rating by userid
+		ArrayList<Ratings> userRating = restTemplate
+				.getForObject("http://localhost:8082/rating/getrating/" + user.getUserId(), ArrayList.class);
+		// Using log4j to display the object
+		logger.info("{}", userRating);
+		// Setting the ratings to user
+		user.setRatings(userRating);
+		return user;
+	}
+
+}

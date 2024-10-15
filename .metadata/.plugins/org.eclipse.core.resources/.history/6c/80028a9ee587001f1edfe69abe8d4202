@@ -1,0 +1,8 @@
+package com.user.entities;
+
+
+public class Hotels {
+
+	private String hotelId;
+	private String name;
+}

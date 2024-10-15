@@ -1,0 +1,39 @@
+package com.hotel.services;
+
+import java.util.List;
+
+import com.hotel.entities.Staffs;
+
+public class StaffsServiceImpl implements StaffService {
+
+	@Override
+	public Staffs create(Staffs staffs) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Staffs update(Staffs staffs) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Staffs get(String hotelId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Staffs> getAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String delete() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

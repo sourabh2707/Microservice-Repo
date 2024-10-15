@@ -1,0 +1,43 @@
+package com.rating.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Service;
+
+import com.rating.entities.Ratings;
+import com.rating.exceptions.ResourceNotFoundException;
+import com.rating.repositories.RatingRepository;
+
+@Service
+public class RatingServiceImpl implements RatingService{
+
+	@Autowired
+	private RatingRepository ratingRepository;
+	
+	@Override
+	public Ratings createRating(Ratings rating) {
+		
+		return ratingRepository.save(rating);
+	}
+
+	@Override
+	public List<Ratings> getAll() {
+		
+		return ratingRepository.findAll();
+	}
+
+	@Override
+	public List<Ratings> getByUserId(String userId) {
+		List<Ratings> listRating = ratingRepository.findById(userId).orElseThrow(()->new ResourceNotFoundException("Resource with user id not found on server:"+userId));
+		return listRating;
+	}
+
+	@Override
+	public List<Ratings> getByHotelId(String hotelId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

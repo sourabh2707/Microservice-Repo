@@ -1,0 +1,45 @@
+package com.hotel.services;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.hotel.entities.Staffs;
+import com.hotel.repositories.StaffRepository;
+
+public class StaffsServiceImpl implements StaffService {
+
+	@Autowired
+	private StaffRepository staffRepository;
+	
+	@Override
+	public Staffs create(Staffs staffs) {
+		staffRepository
+		return null;
+	}
+
+	@Override
+	public Staffs update(Staffs staffs) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Staffs get(String hotelId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Staffs> getAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String delete() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,48 @@
+package com.hotel.services;
+
+import java.util.List;
+import java.util.UUID;
+import java.util.stream.Collectors;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.hotel.entities.Hotels;
+import com.hotel.entities.Staffs;
+import com.hotel.exceptions.ResourceNotFoundException;
+import com.hotel.repositories.HotelRepository;
+import com.hotel.repositories.StaffRepository;
+
+@Service
+public class HotelServiceImpl implements HotelService {
+
+	@Autowired
+	private HotelRepository hotelRepository;
+	
+	@Autowired
+	private StaffRepository staffRepository;
+	
+	@Override
+	public Hotels createHotel(Hotels hotel) {
+		String id = UUID.randomUUID().toString();
+		hotel.setHotelId(id);
+		return hotelRepository.save(hotel);
+	}
+
+	@Override
+	public List<Hotels> getHotels() {
+		List<Hotels> hotelList = hotelRepository.findAll();
+		List<Hotels> updatedList = hotelList.stream().map(hotel->{String id = hotel.getHotelId();
+		List<Staffs> staff = staffRepository.findByHotelId(id);
+		hotel.setStaffs(staff);}).collect(Collectors.toList());
+		
+	
+		return null ;
+	}
+
+	@Override
+	public Hotels getHotel(String id) {
+		Hotels hotel = hotelRepository.findById(id).orElseThrow(()->new ResourceNotFoundException("Resource with user id not found on server:"+id));
+		return hotel;
+	}
+}
