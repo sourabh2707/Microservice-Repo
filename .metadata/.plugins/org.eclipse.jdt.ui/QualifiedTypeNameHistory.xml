@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.rating.repositories.RatingRepository"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestControllerAdvice"/>
     <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ExceptionHandler"/>
@@ -60,4 +59,5 @@
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="com.user.entities.Users"/>
     <fullyQualifiedTypeName name="com.user.services.UserServiceImpl"/>
+    <fullyQualifiedTypeName name="com.user.entities.Ratings"/>
 </qualifiedTypeNameHistroy>
